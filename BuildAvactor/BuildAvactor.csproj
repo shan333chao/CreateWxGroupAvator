@@ -38,6 +38,7 @@
       <HintPath>Magick.NET\Magick.NET-Q16-AnyCPU.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -84,11 +85,15 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="demo.png" />
     <Content Include="Magick.NET\Magick.NET-Q16-AnyCPU.dll" />
     <Content Include="Magick.NET\Magick.NET-Q16-AnyCPU.xml" />
-    <Content Include="templateFolder\25x50.png" />
-    <Content Include="templateFolder\50x25.png" />
-    <Content Include="templateFolder\50x50.png" />
+    <Content Include="templateFolder\height17.png" />
+    <Content Include="templateFolder\height25.png" />
+    <Content Include="templateFolder\height37.png" />
+    <Content Include="templateFolder\width25.png" />
+    <Content Include="templateFolder\width37.png" />
+    <Content Include="templateFolder\width50.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
