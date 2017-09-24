@@ -51,14 +51,25 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AvactorInfo.cs" />
+    <Compile Include="CalcImageCombine.cs" />
+    <Compile Include="DoubleImageStrategy.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="HeptaImageStrategy.cs" />
+    <Compile Include="HexImageStrategy.cs" />
+    <Compile Include="IimageResizeStrategy.cs" />
+    <Compile Include="NonaImageStrategy.cs" />
+    <Compile Include="OctoImageStrategy.cs" />
+    <Compile Include="PentaImageStrategy.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuadrupleImageStrategy.cs" />
+    <Compile Include="SingleImageStrategy.cs" />
+    <Compile Include="TripleImageStrategy.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
